@@ -1,0 +1,101 @@
+/* fonts */
+@import url('https://fonts.googleapis.com/css2?family=Bai+Jamjuree:wght@400;500;600;700&display=swap');
+
+body{
+    font-family: "Bai jamjuree", sans-serif;
+    line-height: 1.7;
+}
+
+.bg1{
+	height: 100%;
+	width: 100%;
+	background-color: rgb(19, 46, 80);
+	clip-path: inset(0 0 0 0);
+	z-index: -1;
+}
+
+a{
+    text-decoration: none;
+}
+
+.btn{
+    width: 30%;
+}
+.btn2{
+    width: 100%;
+}
+.theme{
+    background: #192734;
+}
+
+.toggle-btn img{
+	width: 30px;
+    cursor: pointer;
+}
+
+.border-hover{
+    transition: all 0.4s ease-out;
+    border: transparent;
+}
+
+.border-hover:hover{
+    border: 3px solid var(--bs-info);
+}
+
+.section-padding{
+    padding-top: 120px;
+    padding-bottom: 120px;
+    color: var(--bs-info);
+}
+
+.intro-section p{
+    text-align: justify;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 1.2rem;
+}
+.divider{
+    border-bottom: 1px solid rgba(0,0,0,0.09);
+}
+
+/* Navbar */
+.navbar{
+    transition: all 0.4s ease-out;
+}
+
+.navbar .navbar-nav .nav-link{
+    font-size: 14px;
+    text-transform: uppercase;
+    font-weight: 700;
+}
+
+.navbar .navbar-nav .nav-link:hover{
+    color: var(--bs-info);
+}
+
+/* About */
+.social-icons i:hover{
+    color: var(--bs-info);
+ }
+
+/* Skills */
+#skills .icon{
+    display: grid;
+    align-items: center;
+    text-align: center;
+    width: 80px;
+    height: 80px;
+    color: var(--bs-info);
+    font-size: 65px;
+    box-shadow: inset 2px 2px 8px rgba(55, 94, 148, 0.1), inset -3px -2px 5px rgba(255, 255, 255, 0.0);
+}
+
+/* Projects */
+#projects .card-border{
+    border: 3px solid var(--bs-info);
+    padding: 2px;
+}
+
+/* Contact */
+#contact textarea{
+    resize: none;
+}
